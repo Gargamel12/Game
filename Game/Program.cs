@@ -8,14 +8,13 @@ namespace Game
         {
             Console.WriteLine("Quessing Game");
             Random random = new Random();
-            int randomnumber;
-            while (true)
-            {
-                randomnumber = random.Next(1, 5);
-                Console.WriteLine(randomnumber);
-                Console.ReadLine();
-            
-            }
+            int RandomNumber;
+            RandomNumber = random.Next(1, 101);
+            Console.WriteLine("----------------");
+            Console.Write("Tipněte si číslo 1-100: ");
+            Console.ReadLine();
+
+
         }
     }
 }
